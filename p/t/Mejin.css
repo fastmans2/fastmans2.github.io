@@ -1,0 +1,48 @@
+.support{
+  font-family: "Comic Sans",cursive;
+  margin-right: 50px;
+  font-size: 30px;
+  text-align: right;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+.support1{
+  font-family: "Comic Sans",cursive;
+  margin-left: 100px;
+  font-size: 30px;
+  text-align: left;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+.blackbox{
+  font-family: "Comic Sans",cursive;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-bottom: 32px;
+}
+body{
+  background-image: url("Serb1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+a{
+  text-decoration: none;
+}
+h1{
+  text-align: center;
+  padding-top:25px;
+  padding-bottom: 5px;
+  margin-top: 25px;
+  font-size: 60px;
+  border-bottom: 4px solid black;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+p{
+  line-height: 1.7;
+  text-align: center;
+  padding-left: 20px;
+  font-size: 30px;
+}

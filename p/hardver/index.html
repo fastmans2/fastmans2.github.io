@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Hardver</title>
+
+    <meta charset="utf-8"/>
+
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="mainpage_style.css">
+    <script src="script.js"></script>
+
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="title">
+        <h1 class="maintitle">Računarski Hardver</h1>
+      </div>
+      <div id="body" class="indent">
+
+          <h2 class="blog">Pitanja i odgovori</h2>
+          <h3 class="blog" onclick="hideQuestion(1)">1.Pojam i podela računarskih sistema.</h3>
+
+
+          <div id="hiddenQuestion1" style="display: none">
+          <h4 class="blog">Računarski sistem je elektronski uredjaj koji obradjuje ulazne inforamcije i od njih daju izlazne informacije. Računaski sistem delimo u 4 grupe:</h4>
+            <ol style="list-style-type: lower-alpha">
+                <li>Po broju korisnika</li>
+                <ol style="list-style-type: circle">
+                    <li>Višekorisnički (MAINFRAME based)</li>
+                    <li>Jednokorisnički (PC based).</li>
+                </ol>
+                <li>Po primeni</li>
+                <ol style="list-style-type: circle">
+                    <li>Računari opšte namene</li>
+                    <li>Računari specijalnih namena.</li>
+                </ol>
+                <li>Po broju naredbi</li>
+                <ol style="list-style-type: circle">
+                    <li>SISD (Single	Instruction Single Data)</li>
+                    <li>SIMD (Single	Instruction Multiple Data)</li>
+                    <li>MIMD (Multiple Instruction Multiple	Data)</li>
+                    <li>MISD (Multiple Instruction Single Data)</li>
+                </ol>
+            </ol>
+        </div>
+
+          <h3 class="blog" onclick="hideQuestion(2)">2.Sta su MAINFRAME računari?</h3>
+          <div id="hiddenQuestion2" style="display: none">
+          <h4 class="blog">MAINFRAME računari su moćni računari koji se koriste za obradu podataka u velikim razmerama kao npr. popis stanovnista</h4>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion(3)">3.Faze razvoja računarskih sistema.</h3>
+          <div id="hiddenQuestion3" style="display: none">
+          <h4 class="blog"> Prvu generaciju računarskih sistema karakterise korištenje vakumskih cevi.<br>
+                            Drugu generaciju računarskih sistema karakterise korištenje tranzistora.<br>
+                            Trecu generaciju računarskih sistema karakterise korištenje integrisanih kola.<br>
+                            Cetvrtu generaciju računarskih sistema karakterise korištenje mikroprocesora.<br>
+                            Petu generaciju računarskih sistema karakterise korištenje paralelne arhitekture računara.<br>
+                            Šestu generaciju računarskih sistema karakterise korištenje neuronskih mreža.</h4>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion(4)">4.Sta je to masinska operacija instrukcija i program?</h3>
+          <div id="hiddenQuestion4" style="display: none">
+          <h4 class="blog"> Mašinske operacije izvršavaju odredjeni broj operacija u procesoru.<br>
+                            Mašinska instrukcija je izraz sa vrednostima operanada pridruženi operaciji.<br>
+                            Mašinski program je niz mašinskih instrukcija.</h4>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion(5)">5.Šta se podrazumeva pod ahritekturom računara?</h3>
+          <div id="hiddenQuestion5" style="display: none">
+          <h4 class="blog">Arhitektura računara je unutrašnja struktura digitalnog računara.</h4>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion(6)">6.Fon Nojmanov model (Opsta struktura računara).</h3>
+          <div id="hiddenQuestion6" style="display: none">
+          <ol class="blog">
+            <li>Memorija</li>
+            <li>Kontrolna jedinica</li>
+            <li>Aritmetičko-logička jedinica</li>
+          </ol>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion(7)">7.Osnovne komponente računarskog sistema.</h3>
+          <div id="hiddenQuestion7" style="display: none">
+          <ul class="blog">
+            <li>Centralna memorija</li>
+            <li>Jedinice spoljne memorije</li>
+            <li>Aritmetičko-logička jedinica</li>
+            <li>Kontrolna jedinica</li>
+            <li>Ulazne jedinice</li>
+            <li>Izlazne jedinice</li>
+          </ul>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion(8)">8.Pojam hardvera i softvera</h3>
+          <div id="hiddenQuestion8" style="display: none">
+          <h4 class="blog"> Hardver: Fizicki deo računara<br>
+                            Softver: Programi koji naredjuju računaru da izvrsi zadatke. Dele se na sistemske i aplikativne.</h4>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion(9)">9.Princip rada računara</h3>
+          <div id="hiddenQuestion9" style="display: none">
+          <h4 class="blog">Rad računara se odvija u tri etape:</h4>
+          <ol class="blog">
+            <li>Unošenje podataka</li>
+            <li>Izvršenje naredbi nad unetim podacima u programu koji je unet u računar</li>
+            <li>Izlaz dobijenih rezultata iz racunara</li>
+          </ol>
+          </div>
+
+
+          <h3 class="blog" onclick="hideQuestion(10)">10.Hard-disk</h3>
+          <div id="hiddenQuestion10" style="display: none">
+          <h4 class="blog">Hard-disk je vrsta sekundarne memorije. Gradjen je od:</h4>
+          <ol class="blog">
+            <li>Staza</li>
+            <li>Cilindra</li>
+            <li>Sektora</li>
+          </ol>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion(11)">11.Podela memorija</h3>
+          <div id="hiddenQuestion11" style="display: none">
+          <h4 class="blog"> ROM je vrsta memorije koja se koristi u računaru ili drugim elektronskim uredjajima<br>
+                            RAM je vrsta memorije kojoj mozeš direktno pristupiti na projizvoljnoj lokaciji</h4>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion(12)">12.Kućište</h3>
+          <div id="hiddenQuestion12" style="display: none">
+          <h4 class="blog">U kućištu se nalazi:</h4>
+          <ol class="blog">
+            <li>Maticna ploca: povezuje sve delove računara</li>
+            <li>Graficka kartica: daje trodimenzionalnu ili dvodimenzionalnu sliku</li>
+            <li>Procesor: izvrsava instrukcije racunarskog programa</li>
+            <li>Napajanje: osigurava napon i struju za kuciste</li>
+            <li>Ventilator: rashladjuje delove računara</li>
+            <li>Hard disk: vrsta sekundarne memorije</li>
+          </ol>
+          </div>
+
+      </div>
+
+    </div>
+  </body>
+
+</html>
