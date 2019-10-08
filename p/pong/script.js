@@ -19,6 +19,7 @@ let ball_path_x;
 
 let faze=1;
 let winner;
+let speed=10;
 
 function setup(){
 
@@ -82,7 +83,7 @@ function Input(){
 }
 
 function Calc_ball(){
- ball_x+=(10*ball_path_x);
+ ball_x+=(round(speed)*ball_path_x);
  ball_y+=ball_path_y;
 
 
@@ -90,12 +91,16 @@ function Calc_ball(){
      if(ball_y+30>left_y && ball_y<left_y+left_height && ball_x<left_x+pad_width/2){
        ball_path_x=-1;
        ball_path_y = floor(random(-10,11));
+       speed += 0.1;
+       console.log(speed);
      }
    }
    if(ball_path_x==-1 && ball_x<=right_x+pad_width){
      if(ball_y+30>right_y && ball_y<right_y+right_height && ball_x>right_x+pad_width/2){
       ball_path_x=1;
       ball_path_y = floor(random(-10,11));
+      speed += 0.1;
+      console.log(speed);
      }
     }
 
@@ -134,4 +139,5 @@ function ResetStuff(){
   ball_y=410;
   ball_path_y = floor(random(-10,11));
   ball_path_x = random([-1,1]);
+  speed = 10;
 }
