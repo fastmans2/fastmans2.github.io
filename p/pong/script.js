@@ -20,6 +20,7 @@ let ball_path_x;
 let faze=1;
 let winner;
 let speed=10;
+let speed_buff=0.25;
 
 function setup(){
 
@@ -63,6 +64,16 @@ function draw(){
   if(faze==3){
     text(winner+' Wins', 410, 300);
   }
+
+  if(faze==4){
+    left = rect(left_x,left_y,pad_width,left_height);
+    right = rect(right_x,right_y,pad_width,right_height);
+    ball = rect(ball_x,ball_y,ball_size,ball_size);
+    text('Press Numpad0 to continue', 410, 300);
+    if(keyIsDown(45) || keyIsDown(96)){
+      faze = 2;
+    }
+  }
 }
 
 function Input(){
@@ -80,6 +91,11 @@ function Input(){
   if(keyIsDown(87) && right_y>0){
     right_y-=10;
   }
+
+  if(keyIsDown(27)){
+    faze = 4;
+    console.log("?");
+  }
 }
 
 function Calc_ball(){
@@ -91,7 +107,7 @@ function Calc_ball(){
      if(ball_y+30>left_y && ball_y<left_y+left_height && ball_x<left_x+pad_width/2){
        ball_path_x=-1;
        ball_path_y = floor(random(-10,11));
-       speed += 0.1;
+       speed += speed_buff;
        console.log(speed);
      }
    }
@@ -99,14 +115,18 @@ function Calc_ball(){
      if(ball_y+30>right_y && ball_y<right_y+right_height && ball_x>right_x+pad_width/2){
       ball_path_x=1;
       ball_path_y = floor(random(-10,11));
-      speed += 0.1;
+      speed += speed_buff;
       console.log(speed);
      }
     }
 
- if(ball_y>=850-ball_size || ball_y<=0){
-   ball_path_y*=-1;
- }
+  if(ball_path_y>=0 && ball_y>=850-ball_size){
+    ball_path_y*=-1;
+  }
+
+  if(ball_path_y<0 && ball_y<=0 ){
+    ball_path_y*=-1;
+  }
 
  if(ball_x+ball_size<0){
    left_y+=10;
