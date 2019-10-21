@@ -16,14 +16,14 @@ body{
 }
 
 #btcontain{
-  width: 15vw;
+  width: 31vw;
   height: 6vw;
   margin: 1vw;
   float: left;
 }
 
-#bt{
-  width: 100%;
+.bt{
+  width: 15vw;
   height: 100%;
   font-size: 4vw;
 }
@@ -43,4 +43,19 @@ img{
   width: 9vw;
   height: 9vw;
   opacity: 0.75;
+}
+
+.txts{
+  position: absolute;
+  font-size: 2.5vw;
+}
+
+#txtv{
+  top: 8vw;
+  left: 4.7vw;
+}
+
+#txtn{
+  top: 8vw;
+  left: 85vw;
 }
