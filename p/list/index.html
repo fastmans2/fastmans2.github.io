@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tier List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="tier_s" class="tier_divs" onclick="add_img('tier_s')">
+      <img src="content/tiers/tier_s.png" id="tier_s" class="tier_img tier_main_img">
+    </div>
+    <div id="tier_a" class="tier_divs" onclick="add_img('tier_a')">
+      <img src="content/tiers/tier_a.png" id="tier_a" class="tier_img tier_main_img">
+    </div>
+    <div id="tier_b" class="tier_divs" onclick="add_img('tier_b')">
+      <img src="content/tiers/tier_b.png" id="tier_b" class="tier_img tier_main_img">
+    </div>
+    <div id="tier_c" class="tier_divs" onclick="add_img('tier_c')">
+      <img src="content/tiers/tier_c.png" id="tier_c" class="tier_img tier_main_img">
+    </div>
+    <div id="tier_d" class="tier_divs" onclick="add_img('tier_d')">
+      <img src="content/tiers/tier_d.png" id="tier_d" class="tier_img tier_main_img">
+    </div>
+    <div id="button_list">
+      <input type="button" value="Squad" class="buttons" style="font-size: 3.5vh" onclick="load_imgs('avs')">
+      <input type="button" value="CS:GO" class="buttons" style="font-size: 3.5vh" onclick="load_CSGO()">
+      <input type="button" value="OW" class="buttons" style="font-size: 3.5vh" onclick="load_imgs('ow_heroes')">
+    </div>
+    <div id="button_list_cs"  style="display: none;">
+      <input type="button" value="Guns" class="buttons" style="font-size: 3.5vh" onclick="load_imgs('guns')">
+      <input type="button" value="Maps" class="buttons" style="font-size: 3.5vh" onclick="load_imgs('maps')">
+      <input type="button" value="Pistols" class="buttons" style="font-size: 3.5vh" onclick="load_imgs('pistols')">
+      <input type="button" value="Rifles" class="buttons" style="font-size: 3.5vh" onclick="load_imgs('rifles')">
+      <input type="button" value="SMGs" class="buttons" style="font-size: 3.5vh" onclick="load_imgs('smgs')">
+      <input type="button" value="Heavys" class="buttons" style="font-size: 3.5vh" onclick="load_imgs('heavys')">
+    </div>
+    <div id="img_list">
+
+    </div>
+    <div id="trash_buton" style="display: none;">
+      <img src="content/trash-bin.jpg" id="trash_icon" onclick="delete_img()">
+    </div>
+
+  </body>
+</html>
