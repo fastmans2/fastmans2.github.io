@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mines</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c59208a1a6.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="lib/p5.min.js"></script>
+  </head>
+  <body id="bod">
+    <div id="start_menu">
+      <h1>Fastmans Minesweeper</h1>
+      <div id="diff_buttons">
+        <button type="button"  class="diff_button" style="background-color:rgb(105,175,38);" onClick="start_game(9,9,10,64)"><i class="far fa-flag fa-lg"></i> Easy 9x9</button><br>
+        <button type="button"  class="diff_button" style="background-color:rgb(213,176,8);" onClick="start_game(16,16,40,48)"><i class="far fa-flag fa-lg"></i> Medium 16x16</button><br>
+        <button type="button"  class="diff_button" style="background-color:rgb(217,100,49);" onClick="start_game(30,16,99,48)"><i class="far fa-flag fa-lg"></i> Expert 30x16</button><br>
+        <button type="button"  class="diff_button" style="background-color:rgb(169,67,151);" onClick="showSliders()"><i class="far fa-flag fa-lg"></i> Custom</button><br>
+      </div>
+      <div id="slider_container">
+        <div id="slider_container_left">
+        <input type="range" value="5" min="5" max="30" class="slider" id="slider_x">
+        <input type="range" value="5" min="5" max="24" class="slider" id="slider_y">
+        <input type="range" value="1" min="1" max="16" class="slider" id="slider_bomb">
+        <button type="button"  class="diff_button" id="special_button" style="background-color:rgb(169,67,151);" onClick="start_custom_game()">Start Game</button><br>
+        </div>
+        <div id="slider_container_right">
+          <p id="slider_x_text" class="slider_text">5</p>
+          <p id="slider_y_text" class="slider_text">5</p>
+          <p id="slider_bomb_text" class="slider_text">1</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
