@@ -234,3 +234,27 @@ body{
   bottom: 0;
   left: 0;
 }
+
+
+.important_title{
+  display: flex;
+  justify-content: center;
+
+  font-family: "Quantico",sans-serif;
+}
+
+.important_title_h1{
+  font-size: 64px;
+  margin-bottom: 3px;
+}
+
+.important_title_h1:hover{
+  border-bottom: 3px solid black;
+  margin-bottom: 0;
+  cursor: default;
+}
+
+.chill{
+  text-decoration: none;
+  color: black;
+}
