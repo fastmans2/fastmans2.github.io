@@ -10,8 +10,7 @@ function draw(){
 
 }
 async function game(){
-  await anime(test_anime,"test_animation");
-  console.log("pog");
+  let normal_wike = new Wike("wike1",100,100)
 }
 
 async function anime(animation,name){
@@ -21,12 +20,22 @@ async function anime(animation,name){
   for(let i=0; i<animation.length; i++){
   img_div.src = "content/"+name+"/"+animation[i].im + ".png";
   await sleep(animation[i].dur);
-  console.log("content/"+name+"/"+animation[i].im + ".png");
   }
   document.getElementById("content").removeChild(img_div);
 }
 
-
+class Wike{
+  constructor(pic,x,y){
+    let wike_div = document.createElement("div");
+    let wike_img = document.createElement("img");
+    wike_img.src = "content/wikes/"+pic+".png";
+    document.getElementById("content").appendChild(wike_div);
+    wike_div.appendChild(wike_img);
+    wike_img.style.position="relative";
+    wike_img.style.top = y+"px";
+    wike_img.style.left = x+"px";
+  }
+}
 
 var test_anime=[
   {im:"fr1",dur:1000},
