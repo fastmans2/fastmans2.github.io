@@ -1,2 +1,33 @@
 var calendarData = new Array();
-calendarData.push('{"predmet":"srpski","month":"3","day":"24"}');
+calendarData.push('{"predmet":"Srpski","month":"3","day":"24","clickUrl":"https://classroom.google.com/u/1/c/NTQ2Mjc5NjY5NDla","time":"17:00"}');
+calendarData.push('{"predmet":"Sociologija","month":"3","day":"25","clickUrl":"https://classroom.google.com/u/1/c/NjI5NDA0MjA4MTda/a/NTQ3OTc2MTc5MDha/details"}');
+calendarData.push('{"predmet":"Engleski","month":"3","day":"25","clickUrl":"https://classroom.google.com/u/1/c/NTQ0NDYzMzgyNzBa/a/NjUyNjQzMzEyMzRa/details"}');
+calendarData.push('{"predmet":"Mazicka","month":"3","day":"27","clickUrl":"https://classroom.google.com/u/1/c/NTQ2NTk0MzEyNzVa"}');
+
+var monthData = new Array();
+monthData.push('{"prviDan":"3","brojDana":"31"}');
+monthData.push('{"prviDan":"6","brojDana":"29"}');
+monthData.push('{"prviDan":"1","brojDana":"31"}');
+monthData.push('{"prviDan":"3","brojDana":"30"}');
+monthData.push('{"prviDan":"5","brojDana":"31"}');
+monthData.push('{"prviDan":"1","brojDana":"30"}');
+monthData.push('{"prviDan":"3","brojDana":"31"}');
+monthData.push('{"prviDan":"6","brojDana":"31"}');
+monthData.push('{"prviDan":"2","brojDana":"30"}');
+monthData.push('{"prviDan":"4","brojDana":"31"}');
+monthData.push('{"prviDan":"1","brojDana":"30"}');
+monthData.push('{"prviDan":"2","brojDana":"31"}');
+
+var monthNames = new Array();
+monthNames.push("Januar");
+monthNames.push("Februar");
+monthNames.push("Mart");
+monthNames.push("April");
+monthNames.push("Maj");
+monthNames.push("Jun");
+monthNames.push("Jul");
+monthNames.push("Avgust");
+monthNames.push("Septembar");
+monthNames.push("Okrobar");
+monthNames.push("Novembar");
+monthNames.push("Decembar");
