@@ -7,7 +7,7 @@ calendarData.push('{"predmet":"Mazicka","month":"3","day":"27","clickUrl":"https
 var monthData = new Array();
 monthData.push('{"prviDan":"3","brojDana":"31"}');
 monthData.push('{"prviDan":"6","brojDana":"29"}');
-monthData.push('{"prviDan":"1","brojDana":"31"}');
+monthData.push('{"prviDan":"7","brojDana":"31"}');
 monthData.push('{"prviDan":"3","brojDana":"30"}');
 monthData.push('{"prviDan":"5","brojDana":"31"}');
 monthData.push('{"prviDan":"1","brojDana":"30"}');
@@ -15,7 +15,7 @@ monthData.push('{"prviDan":"3","brojDana":"31"}');
 monthData.push('{"prviDan":"6","brojDana":"31"}');
 monthData.push('{"prviDan":"2","brojDana":"30"}');
 monthData.push('{"prviDan":"4","brojDana":"31"}');
-monthData.push('{"prviDan":"1","brojDana":"30"}');
+monthData.push('{"prviDan":"7","brojDana":"30"}');
 monthData.push('{"prviDan":"2","brojDana":"31"}');
 
 var monthNames = new Array();
