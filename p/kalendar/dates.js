@@ -3,7 +3,7 @@ calendarData.push('{"predmet":"Srpski","month":"3","day":"24","clickUrl":"https:
 calendarData.push('{"predmet":"Sociologija","month":"3","day":"25","clickUrl":"https://classroom.google.com/u/1/c/NjI5NDA0MjA4MTda/a/NTQ3OTc2MTc5MDha/details"}');
 calendarData.push('{"predmet":"Engleski","month":"3","day":"25","clickUrl":"https://classroom.google.com/u/1/c/NTQ0NDYzMzgyNzBa/a/NjUyNjQzMzEyMzRa/details"}');
 calendarData.push('{"predmet":"Mazicka","month":"3","day":"27","clickUrl":"https://classroom.google.com/u/1/c/NTQ2NTk0MzEyNzVa"}');
-calendarData.push('{"predmet":"Mreze","month":"3","day":"27","clickUrl":"https://classroom.google.com/u/1/c/NTM4NDAyMTQ1NTla"}');
+calendarData.push('{"predmet":"Mreze","month":"3","day":"27","clickUrl":"https://classroom.google.com/u/1/c/NTM4NDAyMTQ1NTla/a/NTU0ODQ3NTQwOTFa/details"}');
 
 var monthData = new Array();
 monthData.push('{"prviDan":"3","brojDana":"31"}');
