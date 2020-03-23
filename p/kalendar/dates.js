@@ -1,5 +1,5 @@
 var calendarData = new Array();
-calendarData.push('{"predmet":"Srpski","month":"3","day":"24","clickUrl":"https://classroom.google.com/u/1/c/NTQ2Mjc5NjY5NDla","time":"17:00"}');
+calendarData.push('{"predmet":"Srpski","month":"3","day":"24","clickUrl":"https://classroom.google.com/u/1/c/NTQ2Mjc5NjY5NDla/p/NjUyOTQ3OTI0MjVa/details","time":"17:00"}');
 calendarData.push('{"predmet":"Sociologija","month":"3","day":"25","clickUrl":"https://classroom.google.com/u/1/c/NjI5NDA0MjA4MTda/a/NTQ3OTc2MTc5MDha/details"}');
 calendarData.push('{"predmet":"Engleski","month":"3","day":"25","clickUrl":"https://classroom.google.com/u/1/c/NTQ0NDYzMzgyNzBa/a/NjUyNjQzMzEyMzRa/details"}');
 calendarData.push('{"predmet":"Mazicka","month":"3","day":"27","clickUrl":"https://classroom.google.com/u/1/c/NTQ2NTk0MzEyNzVa"}');
