@@ -4,6 +4,7 @@ calendarData.push('{"predmet":"Sociologija","month":"3","day":"25","clickUrl":"h
 calendarData.push('{"predmet":"Engleski","month":"3","day":"25","clickUrl":"https://classroom.google.com/u/1/c/NTQ0NDYzMzgyNzBa/a/NjUyNjQzMzEyMzRa/details"}');
 calendarData.push('{"predmet":"Mazicka","month":"3","day":"27","clickUrl":"https://classroom.google.com/u/1/c/NTQ2NTk0MzEyNzVa"}');
 calendarData.push('{"predmet":"Mreze","month":"3","day":"27","clickUrl":"https://classroom.google.com/u/1/c/NTM4NDAyMTQ1NTla/a/NTU0ODQ3NTQwOTFa/details"}');
+calendarData.push('{"predmet":"Operativni","month":"3","day":"30","clickUrl":"https://classroom.google.com/u/1/c/NTQ1Mzk4MDMwOTla/m/NTU0NDAzMDQyMjNa/details"}');
 
 var monthData = new Array();
 monthData.push('{"prviDan":"3","brojDana":"31"}');
