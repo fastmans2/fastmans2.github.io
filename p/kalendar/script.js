@@ -8,15 +8,17 @@ class Calendar{
         this.day_count = 0;
         document.getElementById("displayDiv").appendChild(this.calendar_div);
         for(let i = 0; i<40;i++){
+
+            
             console.log(parseInt(this.data.prviDan)+parseInt(this.data.brojDana));
             
             if(i+1>=(parseInt(this.data.prviDan)+parseInt(this.data.brojDana)))break;
             let div = document.createElement("div");
             div.style.gridColumn=(i+1)%7;
-            div.classList+="date";
+            
             this.calendar_div.appendChild(div);
             if(i+1>=this.data.prviDan){
-                
+                div.classList+="date";
                 this.addDate(div);
             }
         }

@@ -31,12 +31,13 @@ body{
 }
 
 .datesHeader{
-    margin: 10px;
+    padding: 10px;
     display: flex;
-    margin-left: 20px;
-    width: 98vw;
-    height: 30px;
+    width: 97vw;
+    height: 26px;
     justify-content: space-around;
+    background-color: rgb(113, 216, 189);;
+    margin: 0 auto;
     
 }
 
@@ -79,7 +80,7 @@ body{
 
 .headerText{
     font-family: "RobotoMedium";
-    color: rgb(201,132,146);
+    color: rgb(202, 73, 99);
     margin-top: 3px;
     font-size: 24px;
     float: left;
@@ -111,4 +112,15 @@ body{
     color: rgb(201,132,146);
     margin-top: 5px;
     text-align: center;
+}
+.dateh1single:hover{
+    color: rgb(230, 43, 80);
+}
+
+.dateh1double:hover{
+    color: rgb(230, 43, 80);
+}
+
+.dateh1triple:hover{
+    color: rgb(230, 43, 80);
 }
