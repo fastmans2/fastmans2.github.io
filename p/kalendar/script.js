@@ -1,3 +1,12 @@
+function unknown(data){
+    let h1 = document.createElement("h1");
+    h1.className = "dateUnknown";
+    h1.innerHTML = data.predmet;
+    h1.onclick=() => window.location.href = data.clickUrl;
+    document.getElementById("unknownEntries").appendChild(h1);
+
+}
+
 class Calendar{
     constructor(month){
         console.log(month);
@@ -34,7 +43,7 @@ class Calendar{
         this.day_divs[this.day_count] = div;
         let h1 = document.createElement("h1");
         h1.innerHTML=this.day_count+1;
-        console.log(this.day_divs[this.day_count]);
+        
         
         this.day_divs[this.day_count].appendChild(h1);
         this.day_count++;
@@ -86,6 +95,10 @@ function loadCalendars(){
     calendarData.forEach(element => {
         let data  = JSON.parse(element);
         calendars[data.month-1].addEvent(data);
+    });
+    unknownData.forEach(element => {
+        let data  = JSON.parse(element);
+        unknown(data);
     });
     changeCalendar(2);
 }
