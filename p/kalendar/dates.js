@@ -6,6 +6,7 @@ calendarData.push('{"predmet":"Mazicka","month":"3","day":"27","clickUrl":"https
 calendarData.push('{"predmet":"Mreze","month":"3","day":"27","clickUrl":"https://classroom.google.com/u/1/c/NTM4NDAyMTQ1NTla/a/NTU0ODQ3NTQwOTFa/details"}');
 calendarData.push('{"predmet":"Operativni","month":"3","day":"30","clickUrl":"https://classroom.google.com/u/1/c/NTQ1Mzk4MDMwOTla/m/NTU0NDAzMDQyMjNa/details"}');
 calendarData.push('{"predmet":"Matis","month":"3","day":"30","clickUrl":"https://classroom.google.com/u/1/c/NjEyMjUxMjc3OTla/a/NTUzMjg2MTkwODBa/details"}');
+calendarData.push('{"predmet":"Sociologija","month":"4","day":"1","clickUrl":"https://classroom.google.com/u/1/c/NjI5NDA0MjA4MTda/a/NTYxMzM4NDUxNjFa/details"}');
 
 var unknownData = new Array();
 unknownData.push('{"predmet":"Ivona","clickUrl":"https://drive.google.com/file/d/1TSIhS_wVBtBFdxE4J1_oVOsGfkcuq6er/view"}');
