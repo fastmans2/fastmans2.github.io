@@ -1,7 +1,136 @@
+/* Root Colors */
+
+:root{
+    /* Colors */
+    --light-aqua: rgb(189,223,214);;
+    --aqua: rgb(157,224,209);
+    --dark-aqua: rgb(87,222,191);
+    --dark-pink: rgb(197, 90, 112);
+    --light-pink: rgb(201,132,146);
+    
+    --black: rgb(20,20,20);
+    --gray1: rgb(100,100,100);
+    --gray2: rgb(150,150,150);
+    --gray3: rgb(200,200,200);
+    --white: rgb(240,240,240);
+
+    --dark-blue: rgb(64, 121, 140);
+    --blue: rgb(72, 172, 240);
+    --light-blue: rgb(160, 221, 255);
+    --lime-green: rgb(101, 184, 145);
+    /* Fonts */
+    --sofia: "Sofia";
+    --roboto: "Roboto";
+}
+
+/* Fonts */
+
 @font-face {
-    font-family: "RobotoMedium";
-    src: url("fonts/Roboto-Medium.ttf");
-    }
+    font-family: "Sofia";
+    src: url('../../fonts/Courgette.ttf');
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../../fonts/Roboto-Medium.ttf");
+}
+
+/* Color Style */
+
+.vibe{
+    /* Main */
+    --background-color: var(--light-aqua);
+    --page-title-font-color: var(--dark-pink);
+    --page-title-font-family: var(--sofia);
+    /* Month Nav */
+    --month-nav-background-color: var(--dark-aqua);
+    --month-entry-font-color: var(--dark-pink);
+    --month-entry-font-family: var(--roboto);
+    --month-entry-hover-font-color: var(--light-pink);
+    /* Content Left */
+    --content-background-color: var(--light-aqua);
+    --content-header-text-font-color: var(--light-pink);
+    --content-header-text-font-family: var(--roboto);
+    --calendar-entry-background-color: var(--aqua);
+    --calendar-entry-border-color: var(--dark-aqua);
+    --calendar-entry-font-color: var(--light-pink);
+    --calendar-entry-font-family: var(--roboto);
+    --calendar-entry-hover-font-color: var(--dark-pink);
+    /* Content Right */
+    --sidebar-background-color: var(--dark-aqua);
+    --sidebar-title-font-color: var(--dark-pink);
+    --sidebar-title-font-family: var(--roboto);
+    --sidebar-title-hover-font-color: var(--light-pink);
+    --sidebar-entry-font-color: var(--light-pink);
+    --sidebar-entry-font-family: var(--roboto);
+    --sidebar-entry-hover-font-color: var(--dark-pink);
+    --sidebar-divider-color: var(--light-pink);
+    --sidebar-style-background-color: var(--light-aqua);
+}
+
+.monochrome{
+    /* Main */
+    --background-color: var(--gray3);
+    --page-title-font-color: var(--black);
+    --page-title-font-family: var(--sofia);
+    /* Month Nav */
+    --month-nav-background-color: var(--gray1);
+    --month-entry-font-color: var(--gray3);
+    --month-entry-font-family: var(--roboto);
+    --month-entry-hover-font-color: var(--black);
+    /* Content Left */
+    --content-background-color: var(--gray3);
+    --content-header-text-font-color: var(--gray1);
+    --content-header-text-font-family: var(--roboto);
+    --calendar-entry-background-color: var(--white);
+    --calendar-entry-border-color: var(--black);
+    --calendar-entry-font-color: var(--gray1);
+    --calendar-entry-font-family: var(--roboto);
+    --calendar-entry-hover-font-color: var(--black);
+    /* Content Right */
+    --sidebar-background-color: var(--gray1);
+    --sidebar-title-font-color: var(--gray2);
+    --sidebar-title-font-family: var(--roboto);
+    --sidebar-title-hover-font-color: var(--gray3);
+    --sidebar-entry-font-color: var(--gray3);
+    --sidebar-entry-font-family: var(--roboto);
+    --sidebar-entry-hover-font-color: var(--gray2);
+    --sidebar-divider-color: var(--black);
+    --sidebar-style-background-color: var(--black);
+}
+
+.summer{
+    /* Main */
+    --background-color: var(--light-blue);
+    --page-title-font-color: var(--lime-green);
+    --page-title-font-family: var(--sofia);
+    /* Month Nav */
+    --month-nav-background-color: var(--blue);
+    --month-entry-font-color: var(--dark-blue);
+    --month-entry-font-family: var(--roboto);
+    --month-entry-hover-font-color: var(--light-blue);
+    /* Content Left */
+    --content-background-color: var(--light-blue);
+    --content-header-text-font-color: var(--lime-green);
+    --content-header-text-font-family: var(--roboto);
+    --calendar-entry-background-color: var(--lime-green);
+    --calendar-entry-border-color: var(--dark-blue);
+    --calendar-entry-font-color: var(--dark-blue);
+    --calendar-entry-font-family: var(--roboto);
+    --calendar-entry-hover-font-color: var(--white);
+    /* Content Right */
+    --sidebar-background-color: var(--blue);
+    --sidebar-title-font-color: var(--dark-blue);
+    --sidebar-title-font-family: var(--roboto);
+    --sidebar-title-hover-font-color: var(--light-blue);
+    --sidebar-entry-font-color: var(--light-blue);
+    --sidebar-entry-font-family: var(--roboto);
+    --sidebar-entry-hover-font-color: var(--dark-blue);
+    --sidebar-divider-color: var(--white);
+    --sidebar-style-background-color: var(--lime-green);
+}
+
+/* Main Page */
 
 *{
     padding: 0;
@@ -9,142 +138,248 @@
 }
 
 body{
-    background-color: rgb(189,223,214);
-}
-
-.calendar{
-    margin: 20px;
-    display: grid;
-    grid-template-rows: repeat(6, 150px);;
-    grid-template-columns: repeat(7, 150px);;
-    grid-gap: 7px;
-}
-
-#calendarHeader{
-    margin: 10px;
-    display: grid;
-    grid-template-rows: 30px;
-    grid-template-columns: repeat(7, 150px);;
-    grid-gap: 7px;
-    margin-left: 20px;
-    
-}
-
-.datesHeader{
-    padding: 10px;
-    display: flex;
-    width: 97vw;
-    height: 26px;
-    justify-content: space-around;
-    background-color: rgb(113, 216, 189);;
-    margin: 0 auto;
-    
+    background-color: var(--background-color);
 }
 
 #container{
-    float: left;
+    width: 1700px;
+    margin: 0 auto;
 }
 
-.sideDiv{
+#page_title{
+    color: var(--page-title-font-color);
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    font-size: 48px;
+    font-family: var(--page-title-font-family);
+}
+
+/* Month Nav */
+
+#month_nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--month-nav-background-color);
+    padding: 10px 0;
+}
+
+#month_list{
+    display: inline;
+}
+
+.month_entry{
+    font-family: var(--month-entry-font-family);
+    color: var(--month-entry-font-color);
+}
+
+.month_entry_selected{
+    font-family: var(--month-entry-font-family);
+    color: var(--month-entry-hover-font-color);
+}
+
+.month_entry:hover{
+    color: var(--month-entry-hover-font-color);
+    cursor: pointer;
+}
+
+/* CONTENT */ 
+
+#content_container{
+    width: 90%;
+    margin: 20px auto;
+    height: 750px;
+}
+
+/* Content Left */
+
+#content{
+    width: 75%;
+    float: left;
+    height: 100%;
+    background-color: var(--content-background-color);
+}
+
+#content_header{
+    display: grid;
+    grid-template-columns: repeat(7, 163px);
+    grid-template-rows: 40px;
+    justify-content: stretch;
+    width: 100%;
+}
+
+#content_header h1{
+    text-align: center;
+    color: var(--content-header-text-font-color);
+    font-family: var(--content-header-text-font-family);
+    font-size: 25px;
+}
+
+.content_calendar{
+    display: grid;
+    grid-template-columns: repeat(7, 163px);
+    grid-template-rows: repeat(6, 120px);
+    margin: 0 auto;
+}
+
+.content_calendar_entry{
+    margin: 3px;
+    border: 3px solid var(--calendar-entry-border-color);
+    border-radius: 10px;
+    background-color: var(--calendar-entry-background-color);
+}
+
+.content_calendar_entry h1{
+    color: var(--calendar-entry-font-color);
+    font-family: var(--calendar-entry-font-family);
+    font-size: 18px;
+    margin: 2px;
+    float: left;
+    position: absolute;
+}
+
+.content_calendar_entry h2{
+    text-align: center;
+    color: var(--calendar-entry-font-color);
+    font-family: var(--calendar-entry-font-family);
+    cursor: pointer;
     float: right;
+    width: 100%;
 }
 
-.dateUnknownX{
-    font-family: "RobotoMedium";
-    color: rgb(201,132,146);
-    margin-right: 100px;
+.content_calendar_entry h2:hover{
+    color: var(--calendar-entry-hover-font-color);
 }
 
-.dateUnknown{
-    font-family: "RobotoMedium";
-    color: rgb(201,132,146);
-    margin-right: 100px;
+
+.day_single{
+    padding-top: 36px;
 }
 
-.dateUnknown:hover{
-    color: rgb(197, 90, 112);
+.day_single h2{
+    font-size: 29px;
 }
 
-.date{
-    background-color: rgb(157,224,209);
-    border: 3px solid rgb(87,222,191);
-    border-radius: 20px;
+.day_double{
+    padding-top: 27px;
 }
 
-.date h1{
-    font-family: "RobotoMedium";
-    color: rgb(201,132,146);
-    margin: 5px;
-    font-size: 24px;
-    float: left;
-    
+.day_double h2{
+    font-size: 27px;
 }
 
-.dateText{
-    font-family: "RobotoMedium";
-    color: rgb(201,132,146);
-    margin-top: 3px;
-    font-size: 24px;
-    float: left;
-    text-align: center;
+.day_triple{
+    padding-top: 18px;
 }
 
-.dateTextSelected{
-    font-family: "RobotoMedium";
-    color: rgb(70, 180, 154);
-    margin-top: 3px;
-    font-size: 24px;
-    float: left;
-    text-align: center;
+.day_triple h2{
+    font-size: 23px;
 }
 
-.dateText:hover{
-    color: rgb(216,167,176);
+.day_quad{
+    padding-top: 10px;
 }
 
-.headerText{
-    font-family: "RobotoMedium";
-    color: rgb(202, 73, 99);
-    margin-top: 3px;
-    font-size: 24px;
-    float: left;
-    text-align: center;
+.day_quad h2{  
+    font-size: 20px;
 }
 
-.dateh1single{
-    clear: both;
-    font-size: 26px;
-    font-family: "RobotoMedium";
-    color: rgb(201,132,146);
-    margin-top: 55px;
-    text-align: center;
+/* Content Right */
+
+#content_sidebar{
+    width: 23%;
+    float: right;
+    height: 100%;
+    background-color: var(--sidebar-background-color);
 }
 
-.dateh1double{
-    clear: both;
-    font-size: 24px;
-    font-family: "RobotoMedium";
-    color: rgb(201,132,146);
+#sidebar_title{
     margin-top: 10px;
     text-align: center;
+    font-family: var(--sidebar-title-font-family);
+    color: var(--sidebar-title-font-color);
 }
 
-.dateh1triple{
-    clear: both;
-    font-size: 22px;
-    font-family: "RobotoMedium";
-    color: rgb(201,132,146);
-    margin-top: 5px;
+.sidebar_entry{
+    margin-top: 10px;
+    text-align: center;
+    font-family: var(--sidebar-entry-font-family);
+    color: var(--sidebar-entry-font-color);
+}
+
+.sidebar_entry:hover{
+    color: var(--sidebar-entry-hover-font-color);
+    cursor: pointer;
+}
+
+#sidebar_style_title{
+    width: 90%;
+    border-top: 2px solid var(--sidebar-divider-color);
+    padding-top: 10px;
+    margin: 100px auto 0 auto;
     text-align: center;
 }
-.dateh1single:hover{
-    color: rgb(230, 43, 80);
+
+#sidebar_style_title a{
+    font-family: var(--sidebar-title-font-family);
+    color: var(--sidebar-title-font-color);
+    text-decoration: none;
 }
 
-.dateh1double:hover{
-    color: rgb(230, 43, 80);
+#sidebar_style_title a:hover{
+    color: var(--sidebar-title-hover-font-color);
+    cursor: pointer;
 }
 
-.dateh1triple:hover{
-    color: rgb(230, 43, 80);
+#sidebar_style_content{
+    background-color: var(--sidebar-style-background-color);
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px 0 20px 0;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: auto;
+    border-radius: 50px;
+    transition: all .10s ease-out;
 }
+
+#sidebar_style:focus-within #sidebar_style_content{
+    visibility: visible;
+    opacity: 1;
+}
+
+.sidebar_style_entry{
+    margin-top: 10px;
+    text-align: center;
+    font-family: var(--sidebar-entry-font-family);
+    color: var(--sidebar-entry-font-color);
+    cursor: pointer;
+}
+
+.sidebar_style_entry:hover{
+    color: var(--sidebar-entry-hover-font-color);
+}
+
+#sidebar_style_vibe::before{
+    background-color: var(--aqua);
+}
+
+#sidebar_style_mono::before{
+    background-color: var(--white);
+}
+
+#sidebar_style_summer::before{
+    background-color: var(--blue);
+}
+
+.sidebar_style_entry::before{
+    content: ' ';
+    border: 2px solid rgb(70,70,70);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+

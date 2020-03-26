@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Kalendar</title>
+</head>
+<body id="bod">
+    <div class="datesHeader" id="datesId">
+        <p class="dateText" onclick="changeCalendar(0)">Januar</p>
+        <p class="dateText" onclick="changeCalendar(1)">Februar</p>
+        <p class="dateText" onclick="changeCalendar(2)">Mart</p>
+        <p class="dateText" onclick="changeCalendar(3)">April</p>
+        <p class="dateText" onclick="changeCalendar(4)">Maj</p>
+        <p class="dateText" onclick="changeCalendar(5)">Jun</p>
+        <p class="dateText" onclick="changeCalendar(6)">Jul</p>
+        <p class="dateText" onclick="changeCalendar(7)">Avgust</p>
+        <p class="dateText" onclick="changeCalendar(8)">Septembar</p>
+        <p class="dateText" onclick="changeCalendar(9)">Oktobar</p>
+        <p class="dateText" onclick="changeCalendar(10)">Novembar</p>
+        <p class="dateText" onclick="changeCalendar(11)">Decembar</p>
+    </div>
+    <br>
+    <div id="container">
+        <div id="calendarHeader">
+            <p style="grid-row: 1;grid-column: 1;" class="headerText">Ponedeljak</p>
+            <p style="grid-row: 1;grid-column: 2;" class="headerText">Utorak</p>
+            <p style="grid-row: 1;grid-column: 3;" class="headerText">Sreda</p>
+            <p style="grid-row: 1;grid-column: 4;" class="headerText">Cetvrtak</p>
+            <p style="grid-row: 1;grid-column: 5;" class="headerText">Petak</p>
+            <p style="grid-row: 1;grid-column: 6;" class="headerText">Subota</p>
+            <p style="grid-row: 1;grid-column: 7;" class="headerText">Nedelja</p>
+        </div>
+        <div id="displayDiv">
+
+        </div>
+    </div>
+    <div class="sideDiv">
+        <h1 class="dateUnknownX"> Nepoznati Datumi</h1>
+        <div id="unknownEntries">
+
+        </div>
+        
+    </div>
+</body>
+<script src="dates.js"></script>
+<script src="script.js"></script>
+</html>
