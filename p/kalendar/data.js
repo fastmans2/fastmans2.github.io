@@ -9,6 +9,7 @@ calendarData.push('{"predmet":"Matis","month":"4","day":"3","clickUrl":"https://
 calendarData.push('{"predmet":"Sociologija","month":"4","day":"1","clickUrl":"https://classroom.google.com/u/1/c/NjI5NDA0MjA4MTda/a/NTYxMzM4NDUxNjFa/details"}');
 calendarData.push('{"predmet":"Gavanska","month":"3","day":"30","clickUrl":"https://jelenagavanski.gnomio.com/course/view.php?id=4#section-2"}');
 calendarData.push('{"predmet":"Srpski","month":"4","day":"2","clickUrl":"https://classroom.google.com/u/1/c/NTQ2Mjc5NjY5NDla/a/NzI5NDA5MzQ1MTha/details"}');
+calendarData.push('{"predmet":"Gavanska","month":"4","day":"6","clickUrl":"https://jelenagavanski.gnomio.com/mod/assign/view.php?id=48"}');
 
 var unknownData = new Array();
 unknownData.push('{"predmet":"Ivona","clickUrl":"https://drive.google.com/file/d/1TSIhS_wVBtBFdxE4J1_oVOsGfkcuq6er/view"}');
