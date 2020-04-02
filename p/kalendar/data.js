@@ -17,6 +17,7 @@ calendarData.push('{"predmet":"Mreze","month":"4","day":"14","clickUrl":"https:/
 
 var unknownData = new Array();
 unknownData.push('{"predmet":"Ivona","clickUrl":"https://drive.google.com/file/d/1TSIhS_wVBtBFdxE4J1_oVOsGfkcuq6er/view"}');
+unknownData.push('{"predmet":"Baze","clickUrl":"https://classroom.google.com/u/1/c/NTM4NjM1ODU3Nzha"}');
 
 
 var monthData = new Array();
