@@ -14,6 +14,7 @@ calendarData.push('{"predmet":"Operativni","month":"4","day":"1","clickUrl":"htt
 calendarData.push('{"predmet":"Sociologija","month":"4","day":"8","clickUrl":"https://classroom.google.com/u/1/c/NjI5NDA0MjA4MTda/a/NjYwOTM4OTEzMjda/details"}');
 calendarData.push('{"predmet":"Engleski","month":"4","day":"8","clickUrl":"https://classroom.google.com/u/1/c/NTQ0NDYzMzgyNzBa/a/NjYxNTg2OTE3MDda/details","time":"2:00PM"}');
 calendarData.push('{"predmet":"Mreze","month":"4","day":"14","clickUrl":"https://classroom.google.com/u/1/c/NTM4NDAyMTQ1NTla/a/NzM2ODkwNzQ5MjBa/details"}');
+calendarData.push('{"predmet":"Rakicka","month":"4","day":"3","clickUrl":"https://classroom.google.com/u/1/c/NTM2MzE3ODIyMzda/a/NzQ1NDQwMzY5NDFa/details"}');
 
 var unknownData = new Array();
 unknownData.push('{"predmet":"Ivona","clickUrl":"https://drive.google.com/file/d/1TSIhS_wVBtBFdxE4J1_oVOsGfkcuq6er/view"}');
