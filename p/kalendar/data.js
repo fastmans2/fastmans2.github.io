@@ -12,9 +12,11 @@ calendarData.push('{"predmet":"Srpski","month":"4","day":"2","clickUrl":"https:/
 calendarData.push('{"predmet":"Gavanska","month":"4","day":"6","clickUrl":"https://jelenagavanski.gnomio.com/mod/assign/view.php?id=48"}');
 calendarData.push('{"predmet":"Operativni","month":"4","day":"1","clickUrl":"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}');
 calendarData.push('{"predmet":"Sociologija","month":"4","day":"8","clickUrl":"https://classroom.google.com/u/1/c/NjI5NDA0MjA4MTda/a/NjYwOTM4OTEzMjda/details"}');
-calendarData.push('{"predmet":"Engleski","month":"4","day":"8","clickUrl":"https://classroom.google.com/u/1/c/NTQ0NDYzMzgyNzBa/a/NjYxNTg2OTE3MDda/details","time":"2:00PM"}');
+calendarData.push('{"predmet":"Engleski","month":"4","day":"8","clickUrl":"https://classroom.google.com/u/1/c/NTQ0NDYzMzgyNzBa/a/NjYxNTg2OTE3MDda/details","time":"14:00"}');
 calendarData.push('{"predmet":"Mreze","month":"4","day":"14","clickUrl":"https://classroom.google.com/u/1/c/NTM4NDAyMTQ1NTla/a/NzM2ODkwNzQ5MjBa/details"}');
 calendarData.push('{"predmet":"Rakicka","month":"4","day":"3","clickUrl":"https://classroom.google.com/u/1/c/NTM2MzE3ODIyMzda/a/NzQ1NDQwMzY5NDFa/details"}');
+calendarData.push('{"predmet":"Srpski","month":"4","day":"8","clickUrl":"https://classroom.google.com/u/1/c/NTQ2Mjc5NjY5NDla/a/NzUwMDUzMzg3Mjda/details","time":"12:00"}');
+calendarData.push('{"predmet":"Program","month":"4","day":"7","clickUrl":"https://classroom.google.com/u/1/c/NTM4NDAyMTQ1MTFa/a/NzQ4MDg5NDg1Mjda/details","time":"08:00"}');
 
 var unknownData = new Array();
 unknownData.push('{"predmet":"Ivona","clickUrl":"https://drive.google.com/file/d/1TSIhS_wVBtBFdxE4J1_oVOsGfkcuq6er/view"}');
