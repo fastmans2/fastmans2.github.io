@@ -19,6 +19,7 @@ calendarData.push('{"predmet":"Srpski","month":"4","day":"8","clickUrl":"https:/
 calendarData.push('{"predmet":"Program","month":"4","day":"10","clickUrl":"https://classroom.google.com/u/1/c/NTM4NDAyMTQ1MTFa/a/NzQ4MDg5NDg1Mjda/details","time":"08:00"}');
 calendarData.push('{"predmet":"Rakicka","month":"4","day":"6","clickUrl":"https://classroom.google.com/u/1/c/NTQ1Mzk4MDMwOTla/a/NzQ3ODgyMDA3NTBa/details"}');
 calendarData.push('{"predmet":"Mazicka","month":"4","day":"8","clickUrl":"https://classroom.google.com/u/1/c/NTQ2NTk0MzEyNzVa/a/NzQ2OTE4MzQ0NDRa/details"}');
+calendarData.push('{"predmet":"Sociologija","month":"4","day":"21","clickUrl":"https://classroom.google.com/u/1/c/NjI5NDA0MjA4MTda/a/NzU1NjY4MjA4ODla/details"}');
 
 var unknownData = new Array();
 unknownData.push('{"predmet":"Ivona","clickUrl":"https://drive.google.com/file/d/1TSIhS_wVBtBFdxE4J1_oVOsGfkcuq6er/view"}');
