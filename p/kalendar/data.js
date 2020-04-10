@@ -21,6 +21,7 @@ calendarData.push('{"predmet":"Rakicka","month":"4","day":"6","clickUrl":"https:
 calendarData.push('{"predmet":"Mazicka","month":"4","day":"8","clickUrl":"https://classroom.google.com/u/1/c/NTQ2NTk0MzEyNzVa/a/NzQ2OTE4MzQ0NDRa/details"}');
 calendarData.push('{"predmet":"Sociologija","month":"4","day":"21","clickUrl":"https://classroom.google.com/u/1/c/NjI5NDA0MjA4MTda/a/NzU1NjY4MjA4ODla/details"}');
 calendarData.push('{"predmet":"Gavanska","month":"4","day":"13","clickUrl":"https://jelenagavanski.gnomio.com/mod/assign/view.php?id=75"}');
+calendarData.push('{"predmet":"Engleski","month":"4","day":"22","clickUrl":"https://classroom.google.com/u/1/c/NTQ0NDYzMzgyNzBa/a/NjM1OTk5NzU4MDda/details","time":"12:00"}');
 
 var unknownData = new Array();
 unknownData.push('{"predmet":"Ivona","clickUrl":"https://drive.google.com/file/d/1TSIhS_wVBtBFdxE4J1_oVOsGfkcuq6er/view"}');
