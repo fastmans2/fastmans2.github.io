@@ -1,0 +1,263 @@
+@font-face {
+    font-family: "Quantico";
+    src: url('../../fonts/Quantico.eot?#iefix') format('embedded-opentype'),
+          url('../../fonts/Quantico.woff') format('woff'),
+          url('../../fonts/Quantico.ttf')  format('truetype'),
+          url('../../fonts/Quantico.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Sofia";
+    src: url('../../fonts/Sofia.eot?#iefix') format('embedded-opentype'),
+          url('../../fonts/Sofia.woff') format('woff'),
+          url('../../fonts/Sofia.ttf')  format('truetype'),
+          url('../../fonts/Sofia.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+  background: url("../../img/bg2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#header{
+  /*structure*/
+  padding-top: 32px;
+  /*style*/
+}
+
+
+.header_h1{
+  text-align: center;
+  margin: 0;
+  font-family: "sofia";
+  font-size: 48px;
+  color: #ffe855;
+}
+
+#container{
+  /*structure*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+
+  /*style*/
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.95);
+}
+
+#nav_bar{
+  /*structure*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  margin-bottom: 8px;
+  /*style*/
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.5);
+}
+
+.nav_bar_button{
+  width: 150px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+.nav_bar_a{
+  color: white;
+  font-size: 32px;
+  text-decoration: none;
+  margin: 0;
+}
+
+.nav_bar_button:hover{
+  background-color: white;
+}
+
+.nav_bar_button:hover .nav_bar_a{
+  color: black;
+}
+
+.nav_bar_dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 150px;
+}
+
+.nav_bar_button:hover .nav_bar_dropdown_content {
+    display: block;
+}
+
+.nav_bar_dropdown_button{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.nav_bar_dropdown_button:hover{
+  background-color: black;
+}
+
+.nav_bar_dropdown_link{
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+  margin: 0;
+}
+
+.nav_bar_dropdown_button:hover .nav_bar_dropdown_link{
+  color: white;
+}
+
+.nav_bar_dropdown_line{
+  padding: 0;
+  margin: 0;
+}
+
+#material{
+  /*structure*/
+
+  /*style*/
+
+  /*ovo pravi gresku na css litu ali ne zelim da izbrisem zbog sredjenosti*/
+}
+
+#blog{
+  /*structure*/
+  float:left;
+  width:750px;
+  /*style*/
+}
+
+.blog_h1{
+  font-family: "Quantico",sans-serif;
+  font-size: 42px;
+  text-align: center;
+  margin: 16px;
+  color:  #ff5582;
+
+}
+
+
+#sidebar{
+  /*structure*/
+  float:right;
+  width: 450px;
+  margin-top: 50px;
+  /*style*/
+}
+
+.sidebar_h1{
+  text-align: center;
+  margin: 0;
+}
+
+.sidebar_link{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+  text-align: center;
+  width: 350px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  border-style: solid;
+  border-color: #ffe855;
+}
+
+.sidebar_a{
+  text-decoration: none;
+  font-size: 32px;
+  color:  #ff5582;
+}
+
+.sidebar_link:hover{
+  background-color: black;
+}
+
+.sidebar_link:hover .sidebar_a{
+  color: white;
+}
+
+#footer{
+  /*structure*/
+  clear:both;
+  padding-top: 64px;
+  margin-left: 128px;
+  /*style*/
+
+}
+
+.footer_h1{
+  font-size: 10px;
+}
+
+.post{
+  border-top: 2px solid #ffe855;
+  margin-left: 16px;
+  margin-bottom: 16px;
+  padding-left: 8px;
+  font-family: "Quantico",sans-serif;
+}
+
+.post_title{
+  font-size: 32px;
+  margin: 4px;
+  color: #ff5582;
+}
+
+.post_date{
+  margin-left: 16px;
+  font-size: 18px;
+  color: #55b0ff;
+}
+
+.post_text{
+  font-size: 16px;
+  color: #55b0ff;
+}
+
+.post_link{
+  text-decoration: none;
+  color: rgb(128,0,0);
+  font-weight: bold;
+}
+
+#change-site{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+
+.important_title{
+  display: flex;
+  justify-content: center;
+
+  font-family: "Quantico",sans-serif;
+}
+
+.important_title_h1{
+  font-size: 64px;
+  margin-bottom: 3px;
+}
+
+.important_title_h1:hover{
+  border-bottom: 3px solid black;
+  margin-bottom: 0;
+  cursor: default;
+}
+
+.chill{
+  text-decoration: none;
+  color: black;
+}
